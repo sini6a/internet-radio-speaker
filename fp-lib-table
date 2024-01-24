@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PCB_ANT_2.4GHZ")(type "KiCad")(uri "${KIPRJMOD}/KiCad/footprints/PCB_ANT_2.4GHZ.pretty")(options "")(descr ""))
+  (lib (name "Internet Radio Speaker")(type "KiCad")(uri "${KIPRJMOD}/KiCad/footprints/Internet Radio Speaker.pretty")(options "")(descr ""))
+  (lib (name "Internet_Radio_Speaker")(type "KiCad")(uri "${KIPRJMOD}/KiCad/footprints/Internet_Radio_Speaker.pretty")(options "")(descr ""))
+)
