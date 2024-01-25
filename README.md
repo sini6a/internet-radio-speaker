@@ -7,7 +7,7 @@
 - **Input Voltage:** 5V / Single Cell Li-ion Battery
 - **Flash Memory:** 32Mbit QSPI
 - **Antenna Connector:** SMA
-- **Controls:** Power On/Off and Volume Adjust Potentiometer
+- **Controls:** Single Power On/Off and Volume Adjust Potentiometer
 - **Connectivity:** USB Charging / Programming (USB Type C)
 - **Audio Output:** Dual Speaker Output (each 3W max)
 - **Indicators:** 3x LED Identifiers for WIFI/PLAYING/CHARGING
