@@ -10,4 +10,7 @@
   (lib (name "ESP32C3")(type "KiCad")(uri "${KIPRJMOD}/KiCad/symbols/ESP32C3.kicad_sym")(options "")(descr ""))
   (lib (name "PCB_ANT_2.4GHZ")(type "KiCad")(uri "${KIPRJMOD}/KiCad/symbols/PCB_ANT_2.4GHZ.kicad_sym")(options "")(descr ""))
   (lib (name "LP4054H")(type "KiCad")(uri "${KIPRJMOD}/KiCad/symbols/LP4054H.kicad_sym")(options "")(descr ""))
+  (lib (name "BQ24292I")(type "KiCad")(uri "${KIPRJMOD}/KiCad/symbols/BQ24292I.kicad_sym")(options "")(descr ""))
+  (lib (name "DS8562")(type "KiCad")(uri "${KIPRJMOD}/KiCad/symbols/DS8562.kicad_sym")(options "")(descr ""))
+  (lib (name "TC1263")(type "KiCad")(uri "${KIPRJMOD}/KiCad/symbols/TC1263.kicad_sym")(options "")(descr ""))
 )
