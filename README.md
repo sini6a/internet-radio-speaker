@@ -1,40 +1,49 @@
 # Open Source Internet Radio Player
 
-![Screenshot #1](screenshots/revision-4.png)
+![Case #1](Pictures/IMG_20250507_222926.jpg)
+![PCB #1](Pictures/IMG_20250507_222842.jpg)  
 
-**README.md to be updated!!!**
-
-## Hardware Specifications:
+## Hardware Specifications
 
 - **Microcontroller:** ESP32-C3
-- **Input Voltage:** 5V / Single Cell Li-ion Battery
-- **Flash Memory:** 32Mbit QSPI
-- **Antenna Connector:** SMA
-- **Controls:** Single Power On/Off and Volume Adjust Potentiometer
-- **Connectivity:** USB Charging / Programming (USB Type C)
-- **Audio Output:** Dual Speaker Output (each 3W max)
-- **Indicators:** 3x LED Identifiers for WIFI/PLAYING/CHARGING
+- **Power Supply:** 5V/0.5A (USB Type-C, ~2.5W)
+- **Flash Memory:** 4Mbit QSPI (on-chip)
+- **Antenna:** Integrated PCB antenna
+- **Controls:** Power switch and analog volume potentiometer
+- **Audio Output:** Dual speaker output (3.2W max per channel)
+- **Indicators:** 3x LEDs (Wi-Fi, Playback, Power)
 
-## Overview:
+## Description
 
-This hardware design represents an open-source Internet Radio Player that offers an user-friendly programming experience and ease of use. Users can power the device with a 5V input or a single-cell Li-ion battery for on-the-go usage. The ESP32-C3 microcontroller, coupled with 32Mbit QSPI Flash Memory, enables plenty of memory for customizing your radio streaming experience.
+This project is a compact, ESP32-C3-based Internet Radio Player designed for ease of use and straightforward integration. The device supports Wi-Fi streaming of MP3 audio and includes basic control via a single potentiometer and button. Audio output is handled via I2S to a stereo amplifier. 
 
-## Features:
+The hardware includes onboard status LEDs and is powered via USB Type-C. It's suitable for low-power audio streaming applications, DIY audio projects, or integration into custom enclosures.
 
-- **Wireless Connectivity:** Utilize the 2.4GHz SMA Antenna Connector for stable wireless connections.
-- **User Controls:** Conveniently manage power and volume with only one potentiometer.
-- **USB Compatibility:** Charge the battery or program the microcontroller through the USB Type C connector.
-- **Audio Output:** Enjoy rich sound with dual speaker outputs, each capable of 3W maximum power.
-- **Status Indicators:** Easily identify the device's status with LED indicators for Wi-Fi connection, streaming, and charging.
+## Features
 
-## Programming:
+- 2.4 GHz Wi-Fi support using the built-in PCB antenna
+- Minimal controls for simple user interaction
+- USB Type-C programming and power interface
+- Stereo speaker output via digital I2S
+- LED indicators for connection and playback status
 
-To customize your listening experience, input your WiFi credentials and preferred radio station during the programming phase. This process allows users to enjoy online radio seamlessly.
+## Firmware and Usage
 
-## Development Status:
+The firmware is located in the `Firmware/` directory and is built using the Arduino framework. Upload it via the Arduino IDE or other compatible tools. 
 
-The project is currently in the initial development and review phase. The first revision of the board is in the manufacturing process with JLCPCB. Upon arrival, extensive testing and further software development will be carried out to enhance functionality and address any potential issues.
+### Initial Setup
 
-Your contributions and feedback are welcome as we strive to create an exceptional open-source Internet Radio Player.
+1. Flash the firmware to the ESP32-C3.
+2. On first boot, the device creates a Wi-Fi Access Point.
+3. Connect to the AP to configure the Wi-Fi credentials and stream URL.
+4. After setup, the device reboots into streaming mode.
 
-_Note: Please check back for updates and feel free to contribute to the project._
+## Status
+
+- Current hardware revision is stable and has been tested.
+- The device is functional and ready for personal assembly or integration.
+- Further development (BLE config, web UI, OTA, etc.) is planned or ongoing.
+
+## Contributions
+
+Pull requests, issue reports, and improvements are welcome. Make sure to open issue before to discuss changes.
