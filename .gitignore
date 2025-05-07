@@ -4,6 +4,7 @@ internet-radio-speaker-project.zip
 JLCPCB/*
 internet-radio-speaker.csv
 ~internet-radio-speaker.kicad_pcb.lck
+fabrication-toolkit-options.json
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/
 

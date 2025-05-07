@@ -1,6 +1,8 @@
 # Open Source Internet Radio Player
 
-![Screenshot #1](screenshots/revision-3.png)
+![Screenshot #1](screenshots/revision-4.png)
+
+**README.md to be updated!!!**
 
 ## Hardware Specifications:
 
